@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+
+html {
+  padding-top: 50px;
+  background-color: #eee;
+}
+
+body > .jumbotron {
+  text-align: center;
+}
+
+body > .jumbotron .alert {
+  display: none;
+}
+
+body > .jumbotron select.form-control {
+  width: 200px;
+}

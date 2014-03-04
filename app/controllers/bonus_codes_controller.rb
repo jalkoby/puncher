@@ -1,5 +1,6 @@
 class BonusCodesController < ApplicationController
   def index
+    @products = Product.all
   end
 
   def validate

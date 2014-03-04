@@ -12,5 +12,19 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
+
+$(function() {
+  $('#check-form').on('submit', function(e) {
+    var $form = $(this);
+    var stopSubmit = !($form.find('select').val() && $form.find(':text').val());
+    if(stopSubmit) return false;
+  }).on('ajax:success', function() {
+    $('#bonus-valid').fadeIn();
+  }).on('ajax:error', function(_, xhr) {
+    if(xhr.status == 403) $('#bonus-not-sold').fadeIn();
+    else if(xhr.status == 404) $('#bonus-not-found').fadeIn();
+  }).on('ajax:beforeSend', function() {
+    $('[data-alert]').hide();
+  });
+});

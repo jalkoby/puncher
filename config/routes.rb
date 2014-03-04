@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :bonus_codes, only: :index do
-    get :validate, on: :collection
-  end
+  root :to => 'bonus_codes#index'
+
+  get 'bonus_codes/validate' => 'bonus_codes#validate', :as => :validate_bonus
 end

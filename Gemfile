@@ -22,6 +22,8 @@ group :test do
   gem 'factory_girl_rails', '~> 4.4.1'
   gem 'vcr', '~> 2.8.0'
   gem 'webmock', '~> 1.8.0'
+  gem 'capybara', '~> 2.2.1'
+  gem 'poltergeist', :require => 'capybara/poltergeist'
 end
 
 # tools
