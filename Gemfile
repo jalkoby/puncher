@@ -17,6 +17,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'therubyracer', '~> 0.12.1',  platforms: :ruby
 
+group :test do
+  gem 'rspec-rails', '~> 2.14.1'
+end
+
 # tools
 group :tools do
   gem 'spring'
