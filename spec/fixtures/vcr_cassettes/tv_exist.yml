@@ -1,0 +1,121 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://github.com/vexor.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - github.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 04 Mar 2014 22:07:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src *; script-src 'self' https://github.global.ssl.fastly.net https://ssl.google-analytics.com
+        https://collector-cdn.github.com https://embed.github.com https://raw.github.com;
+        style-src 'self' 'unsafe-inline' https://github.global.ssl.fastly.net; object-src
+        https://github.global.ssl.fastly.net
+      Etag:
+      - '"418eab552da368c36bd686adfcb2be6d"'
+      Set-Cookie:
+      - logged_in=no; domain=.github.com; path=/; expires=Sat, 04-Mar-2034 22:07:34
+        GMT; secure; HttpOnly
+      X-Github-Request-Id:
+      - 5BF54A1F:3BE1:132F3A:53164EA6
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '[{"created_at":"2014-02-10T09:29:50-08:00","payload":{"team":{"name":"promo","id":680884,"slug":"promo","permission":"push","url":"https://api.github.com/teams/680884","members_url":"https://api.github.com/teams/680884/members{/member}","repositories_url":"https://api.github.com/teams/680884/repos"},"repository":{"id":16173600,"name":"vx-promo","full_name":"vexor/vx-promo","owner":{"login":"vexor","id":6195125,"avatar_url":"https://identicons.github.com/c95a176178024d80bf73d3dfda30f020.png","gravatar_id":null,"url":"https://api.github.com/users/vexor","html_url":"https://github.com/vexor","followers_url":"https://api.github.com/users/vexor/followers","following_url":"https://api.github.com/users/vexor/following{/other_user}","gists_url":"https://api.github.com/users/vexor/gists{/gist_id}","starred_url":"https://api.github.com/users/vexor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vexor/subscriptions","organizations_url":"https://api.github.com/users/vexor/orgs","repos_url":"https://api.github.com/users/vexor/repos","events_url":"https://api.github.com/users/vexor/events{/privacy}","received_events_url":"https://api.github.com/users/vexor/received_events","type":"Organization","site_admin":false},"private":false,"html_url":"https://github.com/vexor/vx-promo","description":"","fork":false,"url":"https://api.github.com/repos/vexor/vx-promo","forks_url":"https://api.github.com/repos/vexor/vx-promo/forks","keys_url":"https://api.github.com/repos/vexor/vx-promo/keys{/key_id}","collaborators_url":"https://api.github.com/repos/vexor/vx-promo/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/vexor/vx-promo/teams","hooks_url":"https://api.github.com/repos/vexor/vx-promo/hooks","issue_events_url":"https://api.github.com/repos/vexor/vx-promo/issues/events{/number}","events_url":"https://api.github.com/repos/vexor/vx-promo/events","assignees_url":"https://api.github.com/repos/vexor/vx-promo/assignees{/user}","branches_url":"https://api.github.com/repos/vexor/vx-promo/branches{/branch}","tags_url":"https://api.github.com/repos/vexor/vx-promo/tags","blobs_url":"https://api.github.com/repos/vexor/vx-promo/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/vexor/vx-promo/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/vexor/vx-promo/git/refs{/sha}","trees_url":"https://api.github.com/repos/vexor/vx-promo/git/trees{/sha}","statuses_url":"https://api.github.com/repos/vexor/vx-promo/statuses/{sha}","languages_url":"https://api.github.com/repos/vexor/vx-promo/languages","stargazers_url":"https://api.github.com/repos/vexor/vx-promo/stargazers","contributors_url":"https://api.github.com/repos/vexor/vx-promo/contributors","subscribers_url":"https://api.github.com/repos/vexor/vx-promo/subscribers","subscription_url":"https://api.github.com/repos/vexor/vx-promo/subscription","commits_url":"https://api.github.com/repos/vexor/vx-promo/commits{/sha}","git_commits_url":"https://api.github.com/repos/vexor/vx-promo/git/commits{/sha}","comments_url":"https://api.github.com/repos/vexor/vx-promo/comments{/number}","issue_comment_url":"https://api.github.com/repos/vexor/vx-promo/issues/comments/{number}","contents_url":"https://api.github.com/repos/vexor/vx-promo/contents/{+path}","compare_url":"https://api.github.com/repos/vexor/vx-promo/compare/{base}...{head}","merges_url":"https://api.github.com/repos/vexor/vx-promo/merges","archive_url":"https://api.github.com/repos/vexor/vx-promo/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/vexor/vx-promo/downloads","issues_url":"https://api.github.com/repos/vexor/vx-promo/issues{/number}","pulls_url":"https://api.github.com/repos/vexor/vx-promo/pulls{/number}","milestones_url":"https://api.github.com/repos/vexor/vx-promo/milestones{/number}","notifications_url":"https://api.github.com/repos/vexor/vx-promo/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/vexor/vx-promo/labels{/name}","releases_url":"https://api.github.com/repos/vexor/vx-promo/releases{/id}","created_at":"2014-01-23T13:46:50Z","updated_at":"2014-02-09T21:45:32Z","pushed_at":"2014-02-09T21:45:32Z","git_url":"git://github.com/vexor/vx-promo.git","ssh_url":"git@github.com:vexor/vx-promo.git","clone_url":"https://github.com/vexor/vx-promo.git","svn_url":"https://github.com/vexor/vx-promo","homepage":null,"size":424,"stargazers_count":0,"watchers_count":0,"language":"CSS","has_issues":true,"has_downloads":true,"has_wiki":true,"forks_count":0,"mirror_url":null,"open_issues_count":0,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","master_branch":"master"},"membership_id":5028809},"public":true,"type":"TeamAddEvent","url":"https://github.com/vexor","actor":"vexor","actor_attributes":{"login":"vexor","type":"Organization","gravatar_id":"a52eb0af59ec4c283ffced739acebaa1","name":"","blog":"http://vexor.io","location":"","email":""},"repository":{"id":16173600,"name":"vx-promo","url":"https://github.com/vexor/vx-promo","description":"","watchers":6,"stargazers":6,"forks":6,"fork":false,"size":917,"owner":"vexor","private":false,"open_issues":0,"has_issues":true,"has_downloads":true,"has_wiki":true,"language":"CSS","created_at":"2014-01-23T05:46:50-08:00","pushed_at":"2014-03-01T10:36:45-08:00","master_branch":"master","organization":"vexor"}}]'
+    http_version: 
+  recorded_at: Tue, 04 Mar 2014 22:07:35 GMT
+- request:
+    method: get
+    uri: https://github.com/vexor.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - github.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 04 Mar 2014 22:07:35 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      Cache-Control:
+      - private, max-age=0, must-revalidate
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src *; script-src 'self' https://github.global.ssl.fastly.net https://ssl.google-analytics.com
+        https://collector-cdn.github.com https://embed.github.com https://raw.github.com;
+        style-src 'self' 'unsafe-inline' https://github.global.ssl.fastly.net; object-src
+        https://github.global.ssl.fastly.net
+      Etag:
+      - '"418eab552da368c36bd686adfcb2be6d"'
+      Set-Cookie:
+      - logged_in=no; domain=.github.com; path=/; expires=Sat, 04-Mar-2034 22:07:35
+        GMT; secure; HttpOnly
+      X-Github-Request-Id:
+      - 5BF54A1F:3BE0:10C1D7:53164EA6
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '[{"created_at":"2014-02-10T09:29:50-08:00","payload":{"team":{"name":"promo","id":680884,"slug":"promo","permission":"push","url":"https://api.github.com/teams/680884","members_url":"https://api.github.com/teams/680884/members{/member}","repositories_url":"https://api.github.com/teams/680884/repos"},"repository":{"id":16173600,"name":"vx-promo","full_name":"vexor/vx-promo","owner":{"login":"vexor","id":6195125,"avatar_url":"https://identicons.github.com/c95a176178024d80bf73d3dfda30f020.png","gravatar_id":null,"url":"https://api.github.com/users/vexor","html_url":"https://github.com/vexor","followers_url":"https://api.github.com/users/vexor/followers","following_url":"https://api.github.com/users/vexor/following{/other_user}","gists_url":"https://api.github.com/users/vexor/gists{/gist_id}","starred_url":"https://api.github.com/users/vexor/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vexor/subscriptions","organizations_url":"https://api.github.com/users/vexor/orgs","repos_url":"https://api.github.com/users/vexor/repos","events_url":"https://api.github.com/users/vexor/events{/privacy}","received_events_url":"https://api.github.com/users/vexor/received_events","type":"Organization","site_admin":false},"private":false,"html_url":"https://github.com/vexor/vx-promo","description":"","fork":false,"url":"https://api.github.com/repos/vexor/vx-promo","forks_url":"https://api.github.com/repos/vexor/vx-promo/forks","keys_url":"https://api.github.com/repos/vexor/vx-promo/keys{/key_id}","collaborators_url":"https://api.github.com/repos/vexor/vx-promo/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/vexor/vx-promo/teams","hooks_url":"https://api.github.com/repos/vexor/vx-promo/hooks","issue_events_url":"https://api.github.com/repos/vexor/vx-promo/issues/events{/number}","events_url":"https://api.github.com/repos/vexor/vx-promo/events","assignees_url":"https://api.github.com/repos/vexor/vx-promo/assignees{/user}","branches_url":"https://api.github.com/repos/vexor/vx-promo/branches{/branch}","tags_url":"https://api.github.com/repos/vexor/vx-promo/tags","blobs_url":"https://api.github.com/repos/vexor/vx-promo/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/vexor/vx-promo/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/vexor/vx-promo/git/refs{/sha}","trees_url":"https://api.github.com/repos/vexor/vx-promo/git/trees{/sha}","statuses_url":"https://api.github.com/repos/vexor/vx-promo/statuses/{sha}","languages_url":"https://api.github.com/repos/vexor/vx-promo/languages","stargazers_url":"https://api.github.com/repos/vexor/vx-promo/stargazers","contributors_url":"https://api.github.com/repos/vexor/vx-promo/contributors","subscribers_url":"https://api.github.com/repos/vexor/vx-promo/subscribers","subscription_url":"https://api.github.com/repos/vexor/vx-promo/subscription","commits_url":"https://api.github.com/repos/vexor/vx-promo/commits{/sha}","git_commits_url":"https://api.github.com/repos/vexor/vx-promo/git/commits{/sha}","comments_url":"https://api.github.com/repos/vexor/vx-promo/comments{/number}","issue_comment_url":"https://api.github.com/repos/vexor/vx-promo/issues/comments/{number}","contents_url":"https://api.github.com/repos/vexor/vx-promo/contents/{+path}","compare_url":"https://api.github.com/repos/vexor/vx-promo/compare/{base}...{head}","merges_url":"https://api.github.com/repos/vexor/vx-promo/merges","archive_url":"https://api.github.com/repos/vexor/vx-promo/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/vexor/vx-promo/downloads","issues_url":"https://api.github.com/repos/vexor/vx-promo/issues{/number}","pulls_url":"https://api.github.com/repos/vexor/vx-promo/pulls{/number}","milestones_url":"https://api.github.com/repos/vexor/vx-promo/milestones{/number}","notifications_url":"https://api.github.com/repos/vexor/vx-promo/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/vexor/vx-promo/labels{/name}","releases_url":"https://api.github.com/repos/vexor/vx-promo/releases{/id}","created_at":"2014-01-23T13:46:50Z","updated_at":"2014-02-09T21:45:32Z","pushed_at":"2014-02-09T21:45:32Z","git_url":"git://github.com/vexor/vx-promo.git","ssh_url":"git@github.com:vexor/vx-promo.git","clone_url":"https://github.com/vexor/vx-promo.git","svn_url":"https://github.com/vexor/vx-promo","homepage":null,"size":424,"stargazers_count":0,"watchers_count":0,"language":"CSS","has_issues":true,"has_downloads":true,"has_wiki":true,"forks_count":0,"mirror_url":null,"open_issues_count":0,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","master_branch":"master"},"membership_id":5028809},"public":true,"type":"TeamAddEvent","url":"https://github.com/vexor","actor":"vexor","actor_attributes":{"login":"vexor","type":"Organization","gravatar_id":"a52eb0af59ec4c283ffced739acebaa1","name":"","blog":"http://vexor.io","location":"","email":""},"repository":{"id":16173600,"name":"vx-promo","url":"https://github.com/vexor/vx-promo","description":"","watchers":6,"stargazers":6,"forks":6,"fork":false,"size":917,"owner":"vexor","private":false,"open_issues":0,"has_issues":true,"has_downloads":true,"has_wiki":true,"language":"CSS","created_at":"2014-01-23T05:46:50-08:00","pushed_at":"2014-03-01T10:36:45-08:00","master_branch":"master","organization":"vexor"}}]'
+    http_version: 
+  recorded_at: Tue, 04 Mar 2014 22:07:35 GMT
+recorded_with: VCR 2.8.0

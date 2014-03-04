@@ -19,6 +19,9 @@ gem 'therubyracer', '~> 0.12.1',  platforms: :ruby
 
 group :test do
   gem 'rspec-rails', '~> 2.14.1'
+  gem 'factory_girl_rails', '~> 4.4.1'
+  gem 'vcr', '~> 2.8.0'
+  gem 'webmock', '~> 1.8.0'
 end
 
 # tools

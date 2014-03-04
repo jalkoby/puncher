@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://github.com/no_found.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - github.com
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 04 Mar 2014 22:09:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 404 Not Found
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src *; script-src 'self' https://github.global.ssl.fastly.net https://ssl.google-analytics.com
+        https://collector-cdn.github.com https://embed.github.com https://raw.github.com;
+        style-src 'self' 'unsafe-inline' https://github.global.ssl.fastly.net; object-src
+        https://github.global.ssl.fastly.net
+      Set-Cookie:
+      - logged_in=no; domain=.github.com; path=/; expires=Sat, 04-Mar-2034 22:09:20
+        GMT; secure; HttpOnly
+      X-Github-Request-Id:
+      - 5BF54A1F:3BE1:14073C:53164F10
+    body:
+      encoding: UTF-8
+      string: '{"error":"Not Found"}'
+    http_version: 
+  recorded_at: Tue, 04 Mar 2014 22:09:21 GMT
+recorded_with: VCR 2.8.0
